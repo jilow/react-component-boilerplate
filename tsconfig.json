@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "outDir": "dist",
+    "strict": true,
+    "sourceMap": true,
+    "lib": ["dom", "es5", "scripthost", "es2015.promise"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*-spec.ts"]
+}
