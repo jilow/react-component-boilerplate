@@ -4,7 +4,7 @@ A template for reusable react components using typescript and built with [microb
 
 ## Quickstart
 
-Install dependancies
+Install dependencies
 ```
 yarn install
 ```
@@ -12,6 +12,11 @@ yarn install
 Development - build on file changes
 ```
 yarn start
+```
+
+Run tests - using jest
+```
+yarn test
 ```
 
 Production - build once

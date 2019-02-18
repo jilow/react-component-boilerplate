@@ -4,12 +4,13 @@
     "target": "es5",
     "declaration": true,
     "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "jsx": "react",
     "outDir": "dist",
     "strict": true,
     "sourceMap": true,
-    "lib": ["dom", "es5", "scripthost", "es2015.promise"]
+    "lib": ["dom", "es2017"]
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*-spec.ts"]
+  "exclude": ["node_modules", "**/*test.ts"]
 }

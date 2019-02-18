@@ -9,21 +9,28 @@
   ],
   "scripts": {
     "start": "microbundle watch",
-    "build": "microbundle"
+    "build": "microbundle",
+    "test": "jest"
   },
-  "author": "",
+  "author": "jilow",
   "license": "ISC",
   "peerDependencies": {
-    "react": ">=16.8.1"
+    "react": ">=16.8.0"
   },
   "devDependencies": {
+    "@types/enzyme": "^3.1.18",
+    "@types/enzyme-adapter-react-16": "^1.0.4",
+    "@types/jest": ">=22.0.0 <24.0.0",
     "@types/react": "^16.8.3",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.9.1",
     "husky": "^1.3.1",
-    "jest": "^24.1.0",
+    "jest": ">=22.0.0 <24.0.0",
     "microbundle": "^0.9.0",
     "prettier": "^1.16.4",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
+    "ts-jest": "^23.10.5",
     "typescript": "^3.3.3"
   }
 }
